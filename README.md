@@ -10,7 +10,7 @@ You can now use ```VersionedRoute``` instead of ```Route``` in your controllers 
 ## Example
 
 ### Version 1 Controller
-```
+```csharp
 namespace GNaP.Web.Versioning.Example.Controllers
 {
     using System.Web.Http;
@@ -35,7 +35,7 @@ namespace GNaP.Web.Versioning.Example.Controllers
 ```
 
 ### Version 2 Controller
-```
+```csharp
 namespace GNaP.Web.Versioning.Example.Controllers
 {
     using System.Web.Http;
