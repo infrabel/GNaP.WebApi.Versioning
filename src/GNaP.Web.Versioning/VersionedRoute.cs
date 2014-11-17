@@ -18,6 +18,11 @@
             }
         }
 
+        public VersionedRoute(string template)
+            : this(template, 1)
+        {
+        }
+
         public VersionedRoute(string template, int version)
             : base(template)
         {
