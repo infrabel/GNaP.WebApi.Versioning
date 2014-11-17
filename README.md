@@ -19,13 +19,13 @@ namespace GNaP.Web.Versioning.Example.Controllers
     [RoutePrefix("api/customers")]
     public class CustomerVersion1Controller : ApiController
     {
-        [VersionedRoute("", 1)]
+        [VersionedRoute("")]
         public IHttpActionResult Get()
         {
             return Json(...);
         }
 
-        [VersionedRoute("{id:int:min(1)}", 1)]
+        [VersionedRoute("{id:int:min(1)}")]
         public IHttpActionResult Get(int id)
         {
             return Json(...);
