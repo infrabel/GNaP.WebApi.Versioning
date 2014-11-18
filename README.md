@@ -3,7 +3,7 @@ GNaP.CSharp.Web.Versioning
 
 ## Usage
 
-Add a reference to [GNaP.Web.Versioning.dll](https://github.com/infrabel/GNaP.CSharp.Web.Versioning/raw/master/deploy/1.0.0.0/GNaP.Web.Versioning/GNaP.Web.Versioning.dll) in your Web API project.
+Add a reference to [GNaP.Web.Versioning.dll](https://github.com/infrabel/GNaP.CSharp.Web.Versioning/raw/master/deploy/1.0.1.0/GNaP.Web.Versioning/GNaP.Web.Versioning.dll) in your Web API project.
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
 
