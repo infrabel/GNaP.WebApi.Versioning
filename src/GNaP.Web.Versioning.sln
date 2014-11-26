@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNaP.Web.Versioning", "GNaP.Web.Versioning\GNaP.Web.Versioning.csproj", "{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNaP.Web.Versioning.WebAPI", "GNaP.Web.Versioning.WebAPI\GNaP.Web.Versioning.WebAPI.csproj", "{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{1D0E8788-1FD5-4D64-88B3-BF2A88081CEF}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
 		..\README.md = ..\README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNaP.Web.Versioning.WebAPI.SystemWeb", "GNaP.Web.Versioning.WebAPI.SystemWeb\GNaP.Web.Versioning.WebAPI.SystemWeb.csproj", "{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +24,10 @@ Global
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
