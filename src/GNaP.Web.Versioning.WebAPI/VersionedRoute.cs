@@ -1,4 +1,4 @@
-﻿namespace GNaP.Web.Versioning
+﻿namespace GNaP.Web.Versioning.WebAPI
 {
     using System.Collections.Generic;
     using System.Web.Http.Routing;

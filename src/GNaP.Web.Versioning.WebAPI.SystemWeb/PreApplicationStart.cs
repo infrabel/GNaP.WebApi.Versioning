@@ -1,8 +1,8 @@
 ﻿using System.Web;
-using GNaP.Web.Versioning;
+using GNaP.Web.Versioning.WebAPI;
 
 [assembly:PreApplicationStartMethod (typeof(PreApplicationStart), "Start")]
-namespace GNaP.Web.Versioning
+namespace GNaP.Web.Versioning.WebAPI
 {
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
