@@ -1,11 +1,21 @@
 GNaP.CSharp.Web.Versioning
 ==========================
 
-## Usage
+## Usage WebAPI Owin
 
-Add a reference to [GNaP.Web.Versioning.dll](https://github.com/infrabel/GNaP.CSharp.Web.Versioning/raw/master/deploy/1.0.1.0/GNaP.Web.Versioning/GNaP.Web.Versioning.dll) in your Web API project.
+Add a reference to [GNaP.Web.Versioning.WebAPI.dll](https://github.com/infrabel/GNaP.CSharp.Web.Versioning/raw/master/deploy/1.0.2.0/GNaP.Web.Versioning.WebAPI/GNaP.Web.Versioning.WebAPI.dll) in your Web API project.
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
+
+Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2) with [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx) on your OWIN WebAPI configuration.
+
+## Usage WebAPI System.Web
+
+Add a reference to [GNaP.Web.Versioning.WebAPI.SystemWeb.dll](https://github.com/infrabel/GNaP.CSharp.Web.Versioning/raw/master/deploy/1.0.2.0/GNaP.Web.Versioning.WebAPI.SystemWeb/GNaP.Web.Versioning.WebAPI.SystemWeb.dll) in your Web API project.
+
+You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
+
+There is no need to add a call to [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx), it is automatically wired up.
 
 ## Example
 
