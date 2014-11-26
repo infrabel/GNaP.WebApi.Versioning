@@ -7,7 +7,7 @@ Add a reference to [GNaP.Web.Versioning.WebAPI.dll](https://github.com/infrabel/
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
 
-Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2) with [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx) on your OWIN WebAPI configuration.
+Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2) with [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx) on your OWIN Web API configuration.
 
 ## Usage (Web API System.Web)
 
