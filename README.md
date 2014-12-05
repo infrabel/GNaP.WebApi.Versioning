@@ -3,9 +3,7 @@ GNaP.WebApi.Versioning
 
 ## Usage (Web API Owin)
 
-Install from NuGet in your Web API project:
-
-```Install-Package GNaP.WebApi.Versioning```
+Install from NuGet in your Web API project: ```Install-Package GNaP.WebApi.Versioning```
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
 
@@ -13,9 +11,7 @@ Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overvie
 
 ## Usage (Web API System.Web)
 
-Install from NuGet in your Web API project:
-
-```Install-Package GNaP.WebApi.Versioning.SystemWeb```
+Install from NuGet in your Web API project: ```Install-Package GNaP.WebApi.Versioning.SystemWeb```
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
 
