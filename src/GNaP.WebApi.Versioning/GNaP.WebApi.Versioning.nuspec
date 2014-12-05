@@ -8,7 +8,7 @@
     <authors>infrabel</authors>
     <owners>infrabel</owners>
 
-    <summary>Standardized way to do versioning with Web API using Owin</summary>
+    <summary>Standardized way to do versioning with Web API</summary>
     <description>$description$</description>
     <copyright>BSD (3-Clause) - Infrabel</copyright>
     
