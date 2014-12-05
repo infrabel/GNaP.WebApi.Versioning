@@ -1,4 +1,4 @@
-﻿namespace GNaP.Web.Versioning.WebAPI
+﻿namespace GNaP.WebApi.Versioning
 {
     using System.Web;
     using System.Web.Http;
