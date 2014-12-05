@@ -80,6 +80,10 @@ GET /api/customers/42
 Accept: application/vnd.gnap.v2+json
 ```
 
+## NuGet
+
+[GNaP.WebApi.Versioning](http://www.nuget.org/packages/GNaP.WebApi.Versioning/)
+
 ## Copyright
 
 Copyright © 2014 Infrabel and contributors.
