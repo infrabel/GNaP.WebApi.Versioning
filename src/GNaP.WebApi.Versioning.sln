@@ -10,11 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		..\.gitignore = ..\.gitignore
 		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
 		..\nupack.cmd = ..\nupack.cmd
-		..\nupush.cmd = ..\nupush.cmd
 		..\README.md = ..\README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNaP.WebApi.Versioning.SystemWeb", "GNaP.WebApi.Versioning.SystemWeb\GNaP.WebApi.Versioning.SystemWeb.csproj", "{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +23,6 @@ Global
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6CCE87A-86CF-4757-9E36-A1EAC03F1CD3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF4F8D63-C511-43F6-AA4A-589DA6F0D635}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
