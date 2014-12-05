@@ -7,7 +7,7 @@ Install from NuGet in your Web API project: ```Install-Package GNaP.WebApi.Versi
 
 You can now use ```VersionedRoute``` instead of ```Route``` in your controllers to get API versioning for free on your routes.
 
-Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2) with [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx) on your Web API configuration.
+Remember to turn on [Attribute Based Routing](http://www.asp.net/web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2) with [MapHttpAttributeRoutes()](http://msdn.microsoft.com/en-us/library/dn479134%28v=vs.118%29.aspx) on your Web API configuration, in case it isn't already there (e.g.: Visual Studio 2012 Web API template does not contain it).
 
 ## Example
 
