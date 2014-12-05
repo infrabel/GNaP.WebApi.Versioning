@@ -13,7 +13,7 @@
     <copyright>BSD (3-Clause) - Infrabel</copyright>
     
     <projectUrl>https://github.com/infrabel/GNaP.WebApi.Versioning</projectUrl>
-    <iconUrl>https://github.com/infrabel/GNaP.WebApi.Versioning/blob/master/src/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/infrabel/GNaP.WebApi.Versioning/master/src/icon.png</iconUrl>
     <licenseUrl>https://github.com/infrabel/GNaP.WebApi.Versioning/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     
