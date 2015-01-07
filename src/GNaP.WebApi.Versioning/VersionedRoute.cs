@@ -18,6 +18,11 @@
             }
         }
 
+        public VersionedRoute()
+            : this(string.Empty)
+        {
+        }
+
         public VersionedRoute(string template)
             : this(template, 1)
         {
