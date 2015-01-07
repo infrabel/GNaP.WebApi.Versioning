@@ -21,7 +21,7 @@ namespace GNaP.WebApi.Versioning.Example.Controllers
     [RoutePrefix("api/customers")]
     public class CustomerVersion1Controller : ApiController
     {
-        [VersionedRoute("")]
+        [VersionedRoute()]
         public IHttpActionResult Get()
         {
             return Json(...);
@@ -86,7 +86,7 @@ Accept: application/vnd.gnap.v2+json
 
 ## Copyright
 
-Copyright © 2014 Infrabel and contributors.
+Copyright © 2014-2015 Infrabel and contributors.
 
 ## License
 
