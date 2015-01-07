@@ -46,7 +46,7 @@ namespace GNaP.WebApi.Versioning.Example.Controllers
     [RoutePrefix("api/customers")]
     public class CustomerVersion2Controller : ApiController
     {
-        [VersionedRoute("", 2)]
+        [VersionedRoute(2)]
         public IHttpActionResult Get()
         {
             return Json(...);
