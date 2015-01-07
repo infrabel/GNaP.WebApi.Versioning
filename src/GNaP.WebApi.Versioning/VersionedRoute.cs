@@ -28,6 +28,11 @@
         {
         }
 
+        public VersionedRoute(int version)
+            : this(string.Empty, version)
+        {
+        }
+
         public VersionedRoute(string template, int version)
             : base(template)
         {
